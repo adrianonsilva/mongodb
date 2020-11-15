@@ -229,7 +229,7 @@ que permitam aos usuários realizar a tomada de decisão.
 
 MongoDB Charts é uma ferramenta de visualização de dados integrada à plataforma de dados em 
 nuvem MongoDB. É a melhor maneira de criar, compartilhar e incorporar visualizações de dados 
-MongoDB.
+MongoDB. Abaixo exemplos do site do MongoDB.
 
 ![Screenshot](/images/img29.jpg)
 
@@ -303,6 +303,10 @@ Abrindo o PowerBI
 ![Screenshot](/images/img48.jpg)
 
 ![Screenshot](/images/arq.jpg)
+
+
+## Customizadas
+
 
 <a id="link7"></a>
 ## 7. Links
