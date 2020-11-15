@@ -101,6 +101,22 @@ Agora ao executar o comando show dbs, o database dbteste aparece
 
 ![Screenshot](/images/img11.jpg)
 
+Para verificar as coleções use: show collections
+
+![Screenshot](/images/img12.jpg)
+
+No exempo anterior, fizemos o insert de um documento e ao mesmo tempo criando uma coleção (nomes)
+
+Agora, vamos primeiro criar uma coleção e depois realizar o insert: 
+
+db.createCollection('pais')
+
+db.pais.insert({"nome":"Brasil"})
+
+![Screenshot](/images/img13.jpg)
+
+
+
 Para limpar a tela:
 
 cls
