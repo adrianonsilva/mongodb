@@ -70,7 +70,7 @@ Após a instalação vamos conectar no servidor e realizar alguns comandos bási
 Obs: em um ambiente de produção devemos nos preocupar com a segurança (criação de usuários, permissões, etc), 
 mas como o objetivo aqui é navegar pela ferramenta e realizar testes básicos, vamos simplificar.
 
-- Conexão Local
+# Conexão Local
 
 No terminal do servidor digite: mongo
 
@@ -129,12 +129,22 @@ Para obter ajuda utilize o help
 
 ![Screenshot](/images/img17.jpg)
 
-
-
 Para limpar a tela:
 
 cls
 Ctrl+l
+
+# Conexão Remota
+
+Para realizar a conexão remota vamos utilizar uma máquina Windows e instalar 
+duas ferramentas client, o MongoDB Shell e MongoDB Compass.
+
+Dessa forma após a instalação vamos acessar o servidor remoto MongoDB (Ubuntu), apartir da máquina Windows.
+
+Os links para instação estão no final do documento
+
+- MongoDB Shell
+O MongoDB Shell é a mesma interface terminal usada anteriormente, só que dessa vez usando o prompt de comando do Windows.
 
 
 
@@ -143,6 +153,14 @@ Ctrl+l
 
 MongoDB
 https://www.mongodb.com/
+
+MongoDB Shell
+https://www.mongodb.com/try/download/shell
+
+MongoDB Compass
+https://www.mongodb.com/try/download/compass
+
+
 
 Tutorials Point - MongoDB
 https://www.tutorialspoint.com/mongodb/index.htm
