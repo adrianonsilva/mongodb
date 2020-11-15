@@ -41,6 +41,7 @@ sudo apt-get install mongodb-server
 ![Screenshot](/images/img02.jpg)
 
 Após a instalaçao, editar o arquivo mongodb.conf, para permitir a conexão de qualuquer host
+
 sudo nano /etc/mongodb.conf
 
 ![Screenshot](/images/img03.jpg)
@@ -56,6 +57,10 @@ sudo service mongodb status
 
 MongoDB
 https://www.mongodb.com/
+
+Tutorials Point - MongoDB
+https://www.tutorialspoint.com/mongodb/index.htm
+
 
 
 
