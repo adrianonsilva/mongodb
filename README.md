@@ -42,7 +42,14 @@ Comparativo entre um banco relacional e o MongoDB (documentos)
 
 <a id="link3"></a>
 ## 3. Instalação
-Instalar o MongoDB em uma máquina virtual Ubuntu na versão 20.04, usando o apt
+
+É possível utilizar o MongoDB de várias formas, dependendo da necessidade:
+
+- Local (on-premise)
+- Cloud MongoDB Atlas
+- database-as-a-service (Microsoft Azure, AWS, Google Cloud Platform)
+
+Para facilitar o MongoDB será instalado em uma máquina virtual Ubuntu na versão 20.04, usando o apt
 
 Abra um terminal e execute o comando
 sudo apt-get update
@@ -199,21 +206,26 @@ Ex: C, C++, C#, .Net, Go, Java, Node.js, Pearl, PHP, Python, Ruby, Scala
 
 ## Python
 
-A seguir um exemplo usando Python, onde é exibido no terminal a colecção pais:
+A seguir um exemplo usando Python, onde é exibido no terminal a coleção pais:
 
 ![Screenshot](/images/img27.jpg)
 
 ![Screenshot](/images/img28.jpg)
 
-
+Outro exemplo, seria uma aplicação que conecta no Twitter, captura tweets e salva no MongoDB.
 
 
 <a id="link6"></a>
 ## 6. Visualização dados
 
-Uma vez que o dados estejam carregados no database, podemos utilizar ferramentas de BI para criar visualizações
-que permitam aos usuários realizar a tomada de descisão.
+Uma vez que o dados estejam carregados no database, podemos utilizar ferramentas para criar visualizações
+que permitam aos usuários realizar a tomada de decisão.
 
+- MongoDB Charts
+- Ferramentas BI (Tableau, MicroStrategy, Qlik, PowerBI)
+- Customizadas (Python (Pandas, Matplotlib, etc))
+
+![Screenshot](/images/arq.jpg)
 
 <a id="link7"></a>
 ## 7. Links
@@ -233,6 +245,7 @@ https://www.guru99.com/nosql-tutorial.html
 Tutorials Point - MongoDB
 https://www.tutorialspoint.com/mongodb/index.htm
 
-
+MongoDB Atlas
+https://www.mongodb.com/cloud/atlas
 
 
