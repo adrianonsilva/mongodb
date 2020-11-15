@@ -27,7 +27,7 @@ Comparativo entre um banco relacional e o MongoDB (documentos)
 | Registro| Documento |
 | Coluna | Campo |
 | Join | Documentos Embutidos |
-| Chave Primária | _id criada pelo MongoDB) |
+| Chave Primária | _id criado pelo MongoDB |
 
 
 ![Screenshot](/images/img00.jpg)
@@ -72,9 +72,31 @@ mas como o objetivo aqui é navegar pela ferramenta e realizar testes básicos, 
 
 - Conexão Local
 
-No terminal do servidor digite
+No terminal do servidor digite: mongo
 
-mongo
+![Screenshot](/images/img06.jpg)
+
+Você estará conectado no servidor local
+
+Listar os databases do servidor : show dbs
+
+![Screenshot](/images/img07.jpg)
+
+Criar um database: use dbteste
+
+![Screenshot](/images/img08.jpg)
+
+Note que o banco criado não aparece na lista de databases, para isso ocorrer é necessário
+incluir pelo menos um documento.
+
+
+
+
+Para limpar a tela:
+
+cls
+Ctrl+l
+
 
 
 <a id="link6"></a>
