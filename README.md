@@ -258,7 +258,7 @@ Install o programa
 
 sudo install -m755 bin/mongo* /usr/local/bin/
 
-Vamos realizar o download de um sample para teste
+Vamos realizar o download de um sample de dados para teste
 
 wget http://media.mongodb.org/zips.json
 
@@ -270,9 +270,21 @@ mongoimport --db dbteste --collection zips --file "/home/hduser/downloads/zips.j
 
 ![Screenshot](/images/img36.jpg)
 
+Start no BI Connector
 
+mongosqld --addr 0.0.0.0
 
+![Screenshot](/images/img37.jpg)
 
+Na máquina cliente vamos configurar o ODBC
+
+![Screenshot](/images/img38.jpg)
+
+![Screenshot](/images/img39.jpg)
+
+![Screenshot](/images/img40.jpg)
+
+![Screenshot](/images/img41.jpg)
 
 ![Screenshot](/images/arq.jpg)
 
