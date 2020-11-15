@@ -25,17 +25,21 @@ ex: {Last_name: "Jones", First_name: "Mary", Middle_initial: "S"}
 ## 3. Instalação
 Instalar o MongoDB em uma máquina virtual Ubuntu na versão 20.04, usando o apt
 
-Abra um terminal e execute os comandos
+Abra um terminal e execute o comando
 sudo apt-get update
 ![Screenshot](/images/img01.jpg)
+
 Em seguida
 sudo apt-get install mongodb-server
 ![Screenshot](/images/img02.jpg)
+
 Após a instalçao, editar o arquivo mongodb.conf, para permitir a conexão de qualuquer host
 sudo nano /etc/mongodb.conf
+
 ![Screenshot](/images/img03.jpg)
 ![Screenshot](/images/img04.jpg)
 Salve o arquivo
 Verifique o status do serviço
 sudo service mongodb status
 ![Screenshot](/images/img05.jpg)
+
