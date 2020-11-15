@@ -89,6 +89,9 @@ Criar um database: use dbteste
 Note que o banco criado não aparece na lista de databases, para isso ocorrer é necessário
 incluir pelo menos um documento.
 
+Para verificar qual banco está selecionado use: db
+
+![Screenshot](/images/img09.jpg)
 
 
 
