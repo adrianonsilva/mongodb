@@ -239,6 +239,40 @@ MongoDB.
 
 ![Screenshot](/images/img32.jpg)
 
+## Ferramentas BI
+
+Para utilizar ferramentas como Tableau, MicroStrategy, Qlik, PowerBI, é necessário instalar o
+BI Connector no servidor local e um ODBC na máquina cliente.
+
+Realizar o download do MongoDB Connector for BI
+https://www.mongodb.com/try/download/bi-connector
+selecione a versão do servidor. (nesse teste vamos usar a versão ubuntu 18.04)
+
+tar -xvzf mongodb-bi-linux-x86_64-ubuntu1804-v2.14.0.tgz
+
+![Screenshot](/images/img33.jpg)
+
+cd mongodb-bi-linux-x86_64-ubuntu1804-v2.14.0
+
+Install o programa
+
+sudo install -m755 bin/mongo* /usr/local/bin/
+
+Vamos realizar o download de um sample para teste
+
+wget http://media.mongodb.org/zips.json
+
+mongoimport --db dbteste --collection zips --file "/home/hduser/downloads/zips.json"
+
+![Screenshot](/images/img34.jpg)
+
+![Screenshot](/images/img35.jpg)
+
+![Screenshot](/images/img36.jpg)
+
+
+
+
 
 ![Screenshot](/images/arq.jpg)
 
