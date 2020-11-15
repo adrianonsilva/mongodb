@@ -5,6 +5,7 @@
 - [4. Conexão](#link4)
 - [5. Comandos básicos](#link5)
 - [6. Visualização dados](#link6)
+- [7. Links](#link7)
 
 <a id="link1"></a>
 ## 1. Descrição
@@ -17,6 +18,8 @@ Os principais tipos de bancos de dados NoSQL são documentos, chave-valor, colun
 O MongoDB armazenas os dados como documentos, similar a objetos Json (JavaScript Object Notation) .
 
 ex: {Last_name: "Jones", First_name: "Mary", Middle_initial: "S"}
+
+![Screenshot](/images/img00.jpg)
 
 <a id="link2"></a>
 ## 2. Objetivos
@@ -46,4 +49,13 @@ sudo nano /etc/mongodb.conf
 Salve o arquivo e Verifique o status do serviço
 sudo service mongodb status
 ![Screenshot](/images/img05.jpg)
+
+
+<a id="link7"></a>
+## 7. Links
+
+MongoDB
+https://www.mongodb.com/
+
+
 
