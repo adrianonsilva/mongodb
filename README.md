@@ -274,11 +274,6 @@ mongoimport --db dbteste --collection zips --file "/home/hduser/downloads/zips.j
 
 
 
-
-
-
-
-
 ![Screenshot](/images/arq.jpg)
 
 <a id="link7"></a>
