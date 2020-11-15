@@ -144,9 +144,22 @@ Dessa forma após a instalação vamos acessar o servidor remoto MongoDB (Ubuntu
 Os links para instação estão no final do documento
 
 - MongoDB Shell
-O MongoDB Shell é a mesma interface terminal usada anteriormente, só que dessa vez usando o prompt de comando do Windows.
 
+O MongoDB Shell é a mesma interface terminal usada anteriormente, só que dessa vez apartir 
+do prompt de comando do Windows.
 
+No ambiente de teste usado, o servidor MongoDB possui o IP 192.168.1.100, e a porta 27017, como 
+não foi configurado usuário, poderemos conectar com o comando: mongosh.exe --host 192.168.1.100:27017
+
+![Screenshot](/images/img18.jpg)
+
+Realizando assim os mesmos comandos executados anteriormente.
+
+- MongoDB Compass
+
+O MongoDB Compass é uma ferramenta gráfica que permite acessar de forma mais intuitiva o servidor
+
+![Screenshot](/images/img19.jpg)
 
 <a id="link6"></a>
 ## 6. Links
