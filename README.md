@@ -175,13 +175,24 @@ Utilizando a string de conexão: mongodb://192.168.1.100:27017
 
 ![Screenshot](/images/img25.jpg)
 
+![Screenshot](/images/img26.jpg)
+
 Através da console, é possível:
 
 - Visualizar informações do servidor
 - Visualizar os databases
 - Visualizar os documentos
-
+- Realizar consultas
+- Criar databases, coleções, adicionar dados
  
+Essas são apenas alguns exemplos do MongoDB, dando uma breve introdução do ambiente e conceitos.
+
+<a id="link5"></a>
+## 5. Visualização dados
+
+Uma vez que o dados estejam carregados no(s) databases, podemos utilizar ferramentas de BI para criar visualizações
+que permitam aos usuários realizar a tomada de descisão.
+
 
 <a id="link6"></a>
 ## 6. Links
