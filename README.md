@@ -276,7 +276,7 @@ mongosqld --addr 0.0.0.0
 
 ![Screenshot](/images/img37.jpg)
 
-Na máquina cliente vamos configurar o ODBC, utilizar o Unicode driver.
+Na máquina cliente vamos configurar o ODBC, indicar o nome do database.
 
 ![Screenshot](/images/img38.jpg)
 
