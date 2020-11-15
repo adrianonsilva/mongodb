@@ -115,6 +115,20 @@ db.pais.insert({"nome":"Brasil"})
 
 ![Screenshot](/images/img13.jpg)
 
+Para realizar consultas utilize o comando find: db.pais.find()
+
+![Screenshot](/images/img14.jpg)
+
+Para realizar uma consulta específica utilize find com parâmetros: db.pais.find({'nome':'Brasil'})
+
+![Screenshot](/images/img15.jpg)
+
+Para obter ajuda utilize o help
+
+![Screenshot](/images/img16.jpg)
+
+![Screenshot](/images/img17.jpg)
+
 
 
 Para limpar a tela:
