@@ -167,6 +167,22 @@ Utilizando a string de conexão: mongodb://192.168.1.100:27017
 
 ![Screenshot](/images/img21.jpg)
 
+![Screenshot](/images/img22.jpg)
+
+![Screenshot](/images/img23.jpg)
+
+![Screenshot](/images/img24.jpg)
+
+![Screenshot](/images/img25.jpg)
+
+Através da console, é possível:
+
+- Visualizar informações do servidor
+- Visualizar os databases
+- Visualizar os documentos
+
+ 
+
 <a id="link6"></a>
 ## 6. Links
 
