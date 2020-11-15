@@ -93,7 +93,13 @@ Para verificar qual banco está selecionado use: db
 
 ![Screenshot](/images/img09.jpg)
 
+Vamos inserir um documento dentro da coleção nomes: db.nomes.insert({"nome":"Exemplo mongodb"})
 
+![Screenshot](/images/img10.jpg)
+
+Agora ao executar o comando show dbs, o database dbteste aparece
+
+![Screenshot](/images/img11.jpg)
 
 Para limpar a tela:
 
