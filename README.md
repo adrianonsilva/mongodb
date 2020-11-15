@@ -9,9 +9,13 @@
 <a id="link1"></a>
 ## 1. Descrição
 O MongoDB é um banco de dados NoSQL (not only SQL) (não apenas SQL).
+
 Um banco de dados NoSQL permite armazenar dados estruturados e semi-estruturados, sem exigir um schema pré-definido.
+
 Os principais tipos de bancos de dados NoSQL são documentos, chave-valor, colunas, e gráfico. 
+
 O MongoDB armazenas os dados como documentos, similar a objetos Json (JavaScript Object Notation) .
+
 ex: {Last_name: "Jones", First_name: "Mary", Middle_initial: "S"}
 
 <a id="link2"></a>
@@ -33,13 +37,13 @@ Em seguida
 sudo apt-get install mongodb-server
 ![Screenshot](/images/img02.jpg)
 
-Após a instalçao, editar o arquivo mongodb.conf, para permitir a conexão de qualuquer host
+Após a instalaçao, editar o arquivo mongodb.conf, para permitir a conexão de qualuquer host
 sudo nano /etc/mongodb.conf
 
 ![Screenshot](/images/img03.jpg)
 ![Screenshot](/images/img04.jpg)
-Salve o arquivo
-Verifique o status do serviço
+
+Salve o arquivo e Verifique o status do serviço
 sudo service mongodb status
 ![Screenshot](/images/img05.jpg)
 
