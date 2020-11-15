@@ -276,7 +276,7 @@ mongosqld --addr 0.0.0.0
 
 ![Screenshot](/images/img37.jpg)
 
-Na máquina cliente vamos configurar o ODBC
+Na máquina cliente vamos configurar o ODBC, utilizar o Unicode driver.
 
 ![Screenshot](/images/img38.jpg)
 
@@ -285,6 +285,22 @@ Na máquina cliente vamos configurar o ODBC
 ![Screenshot](/images/img40.jpg)
 
 ![Screenshot](/images/img41.jpg)
+
+![Screenshot](/images/img42.jpg)
+
+Abrindo o PowerBI
+
+![Screenshot](/images/img43.jpg)
+
+![Screenshot](/images/img44.jpg)
+
+![Screenshot](/images/img45.jpg)
+
+![Screenshot](/images/img46.jpg)
+
+![Screenshot](/images/img47.jpg)
+
+![Screenshot](/images/img48.jpg)
 
 ![Screenshot](/images/arq.jpg)
 
