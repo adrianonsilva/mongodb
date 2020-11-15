@@ -190,13 +190,28 @@ Essas são apenas alguns exemplos dos comandos no MongoDB, dando uma breve intro
 
 
 <a id="link5"></a>
-## 5. Programação dados
+## 5. Programação
+
+Alem da execução de comandos na console, podemos utilizar uma linguagem de programação, para construir aplicações
+de forma a termos uma solução automatizada.
+
+Ex: C, C++, C#, .Net, Go, Java, Node.js, Pearl, PHP, Python, Ruby, Scala
+
+## Python
+
+A seguir um exemplo usando Python, onde é exibido no terminal a colecção pais:
+
+![Screenshot](/images/img27.jpg)
+
+![Screenshot](/images/img28.jpg)
+
+
 
 
 <a id="link6"></a>
 ## 6. Visualização dados
 
-Uma vez que o dados estejam carregados no(s) database(s), podemos utilizar ferramentas de BI para criar visualizações
+Uma vez que o dados estejam carregados no database, podemos utilizar ferramentas de BI para criar visualizações
 que permitam aos usuários realizar a tomada de descisão.
 
 
