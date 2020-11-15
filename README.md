@@ -218,12 +218,27 @@ Outro exemplo, seria uma aplicação que conecta no Twitter, captura tweets e sa
 <a id="link6"></a>
 ## 6. Visualização dados
 
-Uma vez que o dados estejam carregados no database, podemos utilizar ferramentas para criar visualizações
+Uma vez que o dados estejam carregados no database, podemos criar visualizações
 que permitam aos usuários realizar a tomada de decisão.
 
 - MongoDB Charts
 - Ferramentas BI (Tableau, MicroStrategy, Qlik, PowerBI)
-- Customizadas (Python (Pandas, Matplotlib, etc))
+- Customizadas (Python e suas bibliotecas: Pandas, Matplotlib, etc)
+
+## MongoDB Charts
+
+MongoDB Charts é uma ferramenta de visualização de dados integrada à plataforma de dados em 
+nuvem MongoDB. É a melhor maneira de criar, compartilhar e incorporar visualizações de dados 
+MongoDB.
+
+![Screenshot](/images/img29.jpg)
+
+![Screenshot](/images/img30.jpg)
+
+![Screenshot](/images/img31.jpg)
+
+![Screenshot](/images/img32.jpg)
+
 
 ![Screenshot](/images/arq.jpg)
 
@@ -239,13 +254,11 @@ https://www.mongodb.com/try/download/shell
 MongoDB Compass
 https://www.mongodb.com/try/download/compass
 
+MongoDB Atlas
+https://www.mongodb.com/cloud/atlas
+
 Tipos de Databases NoSQL
 https://www.guru99.com/nosql-tutorial.html
 
 Tutorials Point - MongoDB
 https://www.tutorialspoint.com/mongodb/index.htm
-
-MongoDB Atlas
-https://www.mongodb.com/cloud/atlas
-
-
