@@ -3,8 +3,9 @@
 - [2. Objetivos](#link2)
 - [3. Instalação](#link3)
 - [4. Conexão/Comandos básicos](#link4)
-- [5. Visualização dados](#link5)
-- [6. Links](#link6)
+- [5. Programação](#link5)
+- [6. Visualização dados](#link6)
+- [7. Links](#link7)
 
 <a id="link1"></a>
 ## 1. Descrição
@@ -185,17 +186,22 @@ Através da console, é possível:
 - Realizar consultas
 - Criar databases, coleções, adicionar dados
  
-Essas são apenas alguns exemplos do MongoDB, dando uma breve introdução do ambiente e conceitos.
+Essas são apenas alguns exemplos dos comandos no MongoDB, dando uma breve introdução do ambiente e conceitos.
+
 
 <a id="link5"></a>
-## 5. Visualização dados
-
-Uma vez que o dados estejam carregados no(s) databases, podemos utilizar ferramentas de BI para criar visualizações
-que permitam aos usuários realizar a tomada de descisão.
+## 5. Programação dados
 
 
 <a id="link6"></a>
-## 6. Links
+## 6. Visualização dados
+
+Uma vez que o dados estejam carregados no(s) database(s), podemos utilizar ferramentas de BI para criar visualizações
+que permitam aos usuários realizar a tomada de descisão.
+
+
+<a id="link7"></a>
+## 7. Links
 
 MongoDB
 https://www.mongodb.com/
@@ -206,7 +212,8 @@ https://www.mongodb.com/try/download/shell
 MongoDB Compass
 https://www.mongodb.com/try/download/compass
 
-
+Tipos de Databases NoSQL
+https://www.guru99.com/nosql-tutorial.html
 
 Tutorials Point - MongoDB
 https://www.tutorialspoint.com/mongodb/index.htm
