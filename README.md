@@ -2,10 +2,9 @@
 - [1. Descrição](#link1)
 - [2. Objetivos](#link2)
 - [3. Instalação](#link3)
-- [4. Conexão](#link4)
-- [5. Comandos básicos](#link5)
-- [6. Visualização dados](#link6)
-- [7. Links](#link7)
+- [4. Conexão/Comandos básicos](#link4)
+- [5. Visualização dados](#link5)
+- [6. Links](#link6)
 
 <a id="link1"></a>
 ## 1. Descrição
@@ -19,13 +18,25 @@ O MongoDB armazenas os dados como documentos, similar a objetos Json (JavaScript
 
 ex: {Last_name: "Jones", First_name: "Mary", Middle_initial: "S"}
 
+Comparativo entre um banco relacional e o MongoDB (documentos)
+
+| Banco Relacional | MongoDB |
+| ----------- | ----------- |
+| Database | Database |
+| Tabela | Coleção |
+| Registro| Documento |
+| Coluna | Campo |
+| Join | Documentos Embutidos |
+| Chave Primária | _id criada pelo MongoDB) |
+
+
 ![Screenshot](/images/img00.jpg)
 
 <a id="link2"></a>
 ## 2. Objetivos
 - Realizar a Instalação local.
 - Realizar a Conexão local e remota.
-- Executar comandos básicos usando ferramentas cliente (criação de banco, coleção, inset de dados, etc).
+- Executar comandos básicos usando ferramentas cliente (criação de banco, coleção, insert de dados, etc).
 - Visualização dos dados usando ferramentas de BI como Tableau e PowerBI.
 
 <a id="link3"></a>
@@ -40,7 +51,7 @@ Em seguida
 sudo apt-get install mongodb-server
 ![Screenshot](/images/img02.jpg)
 
-Após a instalaçao, editar o arquivo mongodb.conf, para permitir a conexão de qualuquer host
+Após a instalaçao, editar o arquivo mongodb.conf, para permitir a conexão de qualquer host
 
 sudo nano /etc/mongodb.conf
 
@@ -52,8 +63,22 @@ sudo service mongodb status
 ![Screenshot](/images/img05.jpg)
 
 
-<a id="link7"></a>
-## 7. Links
+<a id="link4"></a>
+## 4. Conexão/Comandos básicos
+
+Após a instalação vamos conectar no servidor e realizar alguns comandos básicos.
+Obs: em um ambiente de produção devemos nos preocupar com a segurança (criação de usuários, permissões, etc), 
+mas como o objetivo aqui é navegar pela ferramenta e realizar testes básicos, vamos simplificar.
+
+- Conexão Local
+
+No terminal do servidor digite
+
+mongo
+
+
+<a id="link6"></a>
+## 6. Links
 
 MongoDB
 https://www.mongodb.com/
