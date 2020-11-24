@@ -302,7 +302,11 @@ Abrindo o PowerBI
 
 ![Screenshot](/images/img48.jpg)
 
+Usando uma outra collection para visializar indicadores de países.
+
 ![Screenshot](/images/img48a.jpg)
+
+![Screenshot](/images/img48b.jpg)
 
 ![Screenshot](/images/arq.jpg)
 
