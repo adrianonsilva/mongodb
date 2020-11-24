@@ -35,8 +35,8 @@ Comparativo entre um banco relacional e o MongoDB (documentos)
 
 <a id="link2"></a>
 ## 2. Objetivos
-- Realizar a Instalação local.
-- Realizar a Conexão local e remota.
+- Realizar a nstalação local do servidor MongoDB.
+- Realizar a conexão local e remota.
 - Executar comandos básicos usando ferramentas cliente (criação de banco, coleção, insert de dados, etc).
 - Visualização dos dados usando ferramentas de BI como Tableau e PowerBI.
 
@@ -47,9 +47,9 @@ Comparativo entre um banco relacional e o MongoDB (documentos)
 
 - Local (on-premise)
 - Cloud MongoDB Atlas
-- database-as-a-service (Microsoft Azure, AWS, Google Cloud Platform)
+- Database-as-a-service (Microsoft Azure, AWS, Google Cloud Platform)
 
-Para facilitar o MongoDB será instalado em uma máquina virtual Ubuntu na versão 20.04, usando o apt
+Para facilitar o MongoDB será instalado em uma máquina virtual Ubuntu na versão 20.04.
 
 Abra um terminal e execute o comando
 sudo apt-get update
@@ -212,7 +212,7 @@ A seguir um exemplo usando Python, onde é exibido no terminal a coleção pais:
 
 ![Screenshot](/images/img28.jpg)
 
-Outro exemplo, seria uma aplicação que conecta no Twitter, captura tweets e salva no MongoDB.
+Outro exemplo: aplicação que conecta no Twitter, captura tweets e grava no MongoDB.
 
 
 <a id="link6"></a>
@@ -223,7 +223,7 @@ que permitam aos usuários realizar a tomada de decisão.
 
 - MongoDB Charts
 - Ferramentas BI (Tableau, MicroStrategy, Qlik, PowerBI)
-- Customizadas (Python e suas bibliotecas: Pandas, Matplotlib, etc)
+- Python (Pandas, Matplotlib, etc)
 
 ## MongoDB Charts
 
@@ -305,8 +305,35 @@ Abrindo o PowerBI
 ![Screenshot](/images/arq.jpg)
 
 
-## Customizadas
+## Python
 
+Nesse case, vamos usar o Python para ler os dados do MongoDB Atlas (serviço cloud) e criar uma visualização simples usando 
+o matplotlib usando o ambiente do Google Colab
+
+Usando o comando abaixo, os dados do arquivo .json para o database brics, na collection country_ind
+
+mongoimport --uri "[your_conection_string]" --collection country_ind --file country_ind.json
+
+![Screenshot](/images/img49.jpg)
+
+Visualizando os dados usando a interface do MongoDB Atlas.
+
+![Screenshot](/images/img50.jpg)
+
+Após o login, podemos confirmar a collection com os 227 documentos.
+
+![Screenshot](/images/img51.jpg)
+
+Usando o Google Colab, vamos executar um notebook, fazendo a conexão com o MongoDB Atlas, executando um filtro e salvando os
+países da Região "WESTERN EUROPE" e criando um gráfico do GPD (Gross Domestic Product) que é o Produto Interno Bruto.
+
+![Screenshot](/images/img52.jpg)
+
+![Screenshot](/images/img53.jpg)
+
+![Screenshot](/images/img54.jpg)
+
+![Screenshot](/images/img55.jpg)
 
 <a id="link7"></a>
 ## 7. Links
@@ -328,3 +355,7 @@ https://www.guru99.com/nosql-tutorial.html
 
 Tutorials Point - MongoDB
 https://www.tutorialspoint.com/mongodb/index.htm
+
+Google Colab
+https://colab.research.google.com/
+

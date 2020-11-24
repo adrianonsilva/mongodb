@@ -1,0 +1,46 @@
+#biblioteca necessária para conexão com o MongoDB
+#pip install dnspython
+
+#importando as bibliotecas necessárias
+import pymongo
+import pandas as pd
+from pymongo import MongoClient
+import matplotlib.pyplot as plt
+
+#definindo o estilo do gráfico
+plt.style.use('fivethirtyeight')
+
+#conexão com o MongoDB Atlas
+client = MongoClient("[your_string_conection]")
+
+#definindo o database e collection
+db = client.brics
+collection = db.country_ind
+
+#realizando o filtro e salvando o resultado em um dataframe
+data = pd.DataFrame(list(collection.find({'Region':'WESTERN EUROPE'})))
+
+#passando o GPD para numéro
+data['GDP'] = pd.to_numeric(data['GDP'])
+
+#defindo eixo x e y do gráfico
+x=[]
+y=[]
+
+x = data['Country']
+y = data['GDP']
+
+fig = plt.figure()
+ax = fig.add_axes([0,0,1,1])
+
+#título do gráfico
+plt.title('Data from MongoDB')
+
+#labels do gráfico
+plt.xlabel('Country')
+plt.ylabel('GDP')
+ax.bar(x,y)
+plt.xticks(rotation=90)
+
+#exibindo o gráfico
+plt.show()
