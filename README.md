@@ -302,8 +302,9 @@ Abrindo o PowerBI
 
 ![Screenshot](/images/img48.jpg)
 
-![Screenshot](/images/arq.jpg)
+![Screenshot](/images/img48a.jpg)
 
+![Screenshot](/images/arq.jpg)
 
 ## Python
 
